@@ -4,7 +4,7 @@ const Admin = require('../model/Admin');
 // const Admin = require('../models/Admin'); // Adjust the path as necessary
 
 // MongoDB connection URI
-const dbURI = 'mongodb+srv://Arapp:4NXUcv37A1NyJ7Y9@cluster0.iymtagb.mongodb.net/ecommerce-shofy?retryWrites=true&w=majority&appName=Cluster0'; // Replace with your MongoDB URI
+const dbURI = '' // Replace with your MongoDB URI
 
 // Connect to MongoDB
 mongoose.connect(dbURI, {
